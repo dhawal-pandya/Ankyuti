@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Ankyuti/static/css/main.d6fa21df.css",
-    "main.js": "/Ankyuti/static/js/main.f1cd9b6c.js",
+    "main.js": "/Ankyuti/static/js/main.2671d86b.js",
     "index.html": "/Ankyuti/index.html",
     "main.d6fa21df.css.map": "/Ankyuti/static/css/main.d6fa21df.css.map",
-    "main.f1cd9b6c.js.map": "/Ankyuti/static/js/main.f1cd9b6c.js.map"
+    "main.2671d86b.js.map": "/Ankyuti/static/js/main.2671d86b.js.map"
   },
   "entrypoints": [
     "static/css/main.d6fa21df.css",
-    "static/js/main.f1cd9b6c.js"
+    "static/js/main.2671d86b.js"
   ]
 }
