@@ -15,22 +15,7 @@ const Number = (props) => {
     let betterArr = [];
     let arr = str.split(' ');
     for (let i = 0; i < arr.length; i++) {
-      if (
-        (arr[i] === 'one' ||
-          arr[i] === 'two' ||
-          arr[i] === 'three' ||
-          arr[i] === 'four' ||
-          arr[i] === 'five' ||
-          arr[i] === 'six' ||
-          arr[i] === 'seven' ||
-          arr[i] === 'eight' ||
-          arr[i] === 'nine') &&
-        i !== 0
-      ) {
-        betterArr.push('and');
-        // betterArr.push('\n');
-        betterArr.push(arr[i]);
-      } else if (arr[i] === 'Zero' && i === 0) {
+      if (arr[i] === 'Zero' && i === 0) {
         betterArr.push('Enter Only Numbers');
       } else {
         betterArr.push(arr[i]);
